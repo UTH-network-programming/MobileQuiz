@@ -20,19 +20,19 @@ const CardResult = ({
       <View
         style={{
           flexDirection: "row",
-          padding: 5
+          padding: 5,
         }}
       >
-        <TextUI text={No} size={12} width={40} />
-        <View style={{ flexDirection: "column", width: 250 }}>
-          <TextUI text={Question} size={12} />
-          {Answer ? <TextUI text={Answer} size={12} weight="bold" /> : null}
+        <TextUI text={No} size={15} width={40} />
+        <View style={{ flexDirection: "column", width: 230 }}>
+          <TextUI text={Question} size={15} />
+          {Answer ? <TextUI text={Answer} size={15} weight="bold" /> : null}
         </View>
 
         <TextUI
-          width={80}
+          width={100}
           text={YourAnswer}
-          size={12}
+          size={15}
           color={colorYourAnswer}
           weight="bold"
         />

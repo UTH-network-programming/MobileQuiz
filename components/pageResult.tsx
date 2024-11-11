@@ -4,7 +4,7 @@ import TitleUI from "./ui/titleUI";
 import CardUI from "./ui/cardUI";
 import TextUI from "./ui/textUI";
 import TableUI from "./ui/tableUI";
-
+import MaterialIcons from "react-native-vector-icons/MaterialIcons";
 const PageResult = ({ navigation }: { navigation: any }) => {
   return (
     <ScrollView style={styles.body}>
@@ -21,10 +21,7 @@ const PageResult = ({ navigation }: { navigation: any }) => {
         icon="workspace-premium"
         view={
           <View style={{ flexDirection: "column", alignItems: "center" }}>
-            <Image
-              source={require("../assets/favicon.png")}
-              style={{ width: 70, height: 70 }}
-            />
+            <MaterialIcons name="emoji-events" size={100} />
             <TextUI text="Good job" color="grey" size={35} />
             <TextUI text=">25% accuracy" color="grey" size={20} />
           </View>
