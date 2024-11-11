@@ -1,1 +1,2 @@
-# MobileQuiz
+HOW RUN
+npx expo start  
